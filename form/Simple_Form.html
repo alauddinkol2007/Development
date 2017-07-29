@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+		<head>
+		<center>
+			<p text-color="Green" text-align="center" font-size="20px"> <h4>Submit Your Data</h4></p>
+		</head>
+			<body>
+			
+				<form>
+				<fieldset>
+					<legend>Personal Information</legend>
+				First Name 
+				<input type="text" name="firstname" value="">
+				<br><br>
+				Last Name
+				<input type="text" name="lastname" value="">
+				<br><br>
+				Your Password
+				<input type="password" name="psw">
+				<br><br>
+				Your Favourite Color <input type="color" name="color">
+				<br><br>
+				Date of Birth <input type="date" name="dob">
+				<br><br>
+				Technical Strength <input type="range" name="range" min="0" max="10">
+				<br><br>
+				Gender 
+				<input type="radio" name="gender" value="Male">Male
+				<input type="radio" name="gender" value="Female">Female 
+				<input type="radio" name="gender" value="Other">Other <br>
+				<br>
+				By Birth
+				<input type="checkbox" name="checkbox">Yes
+				<input type="checkbox" name="checkbox">No
+				<br><br>
+				Country
+				<select name="country">
+					<option value="India" selected>India</option>
+					<option value="SriLanka">Sri Lanka</option>
+					<option value="Australia">Australia</option>
+					<option value="SouthAfrica">South Africa</option>
+					<option value="NewZealand">New Zealand</option>
+					<option value="China">China</option>
+					<option value="England">England</option>
+				</select>
+				<br><br>
+				Please Leave a Message <textarea name="message" rows="5" cols="20"> Write to Us</textarea>
+				<br><br>
+				Marital Status
+				<input list="status" name="MaritalStatus">
+					<datalist id="status">
+						<option value="Single">
+						<option value="Married">
+					</datalist>
+				</fieldset>
+				<br>
+				<!-- This is submit button, need to know the difference between submit and button
+				<button type="button" onclick="alert('Thank You. Your form is Submitted')">Submit</button>-->
+				
+				<input type="submit" name="Click Here to Submit">
+				<input type="reset" name="reset">
+				</form>
+			
+			</body>
+
+
+</html>
