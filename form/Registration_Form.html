@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Registration Form</title>
+	</head>
+	
+	<body>
+	
+	<h2>Student Registration Form</h2>
+	<form>
+	<fieldset>
+		<legend>Personal Data</legend>
+			Mr/Mrs/Miss <select name="select">
+				<option name="select" value="Mr.">Mr</option>
+				<option name="select" value="Mr.">Mrs</option>
+				<option name="select" value="Mr.">Miss</option>
+				</select>
+			<br><br>
+			First Name <input type="text" name="firstname" Value="">
+			<br><br>
+			Last Name <input type="text" name="lastname" Value="">
+			<br><br>
+			Address <textarea name="address" rows="3", cols="30"></textarea>
+			<br><br>
+			Sex <input type="radio" name="sex" value="Male">Male</input>
+				<input type="radio" name="sex" value="Female">Female</input>
+			<br><br>
+			Marital Status 
+			<input list="status" name="MaritalStatus">
+				<datalist id="status">
+					<option value="Single">
+					<option value="Married">
+				</datalist>	
+			<br><br>
+			State <select name="state">
+				<option name="state" value="West Bengal">West Bengal</option>
+				<option name="state" value="Jharkhand">Jharkhand</option>
+				<option name="state" value="Bihar">Bihar</option>
+				<option name="state" value="Assam">Assam</option>
+				<option name="state" value="Orrisa">Orrisa</option>
+				<option name="state" value="Maharashtra">Maharastra</option>
+				</select>
+			<br><br>
+			Country <select name="country">
+				<option name="country" value="India">India</option>
+				<option name="country" value="Sri Lanka">Sri Lanka</option>
+				<option name="country" value="Pakistan">Pakistan</option>
+				<option name="country" value="China">China</option>
+				</select>
+	</fieldset>			
+	<br>
+	<input type="Submit" name="submit">
+	<input type="reset" name="reset">
+	
+	</form>	
+	</body>
+
+</html>
