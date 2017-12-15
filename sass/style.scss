@@ -1,0 +1,46 @@
+body{
+    width: 100%;
+    height: auto;
+    position: static;
+    padding: 2rem 0;
+    margin: 0;
+}
+
+nav {
+    border: 5px solid red;
+    position: relative;
+    display: block;
+}
+
+main {
+    border: 5px solid orange;
+    height: auto;
+    position: relative;
+    display: block;
+    width: auto;
+    overflow: auto;
+    .main-left{
+        // border: 1px solid blue;
+        background-color: yellow !important;
+        width: 40%;
+        float: left;
+        min-height: 200px;
+        position: relative;
+        display: block;
+    }
+    .main-right{
+        // border: 1px solid blue;
+        background-color: yellow !important;
+        width: 60%;
+        float: left;
+        min-height: 200px;
+        position: relative;
+        display: block;
+    }    
+}
+
+footer {
+    border: 5px solid blue;
+    position: relative;
+    display: block;
+}
